@@ -85,3 +85,15 @@ details p{margin:10px 0 0;color:var(--muted)}
 .foot-links a:hover{color:var(--text)}
 @media (max-width:980px){.hero-grid{grid-template-columns:1fr}.hero-copy h1{font-size:44px}.grid{grid-template-columns:repeat(2,1fr)}.story{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}}
 @media (max-width:520px){.nav-links{display:none}.hero-copy h1{font-size:38px}.grid{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}.strip-inner{flex-direction:column;align-items:flex-start}.footer-inner{flex-direction:column;align-items:flex-start}}
+.logo-img{
+  width:44px;
+  height:44px;
+  object-fit:contain;
+  display:inline-block;
+}
+
+footer .logo-img{
+  width:38px;
+  height:38px;
+} 
+/* logo fix */
